@@ -4,23 +4,18 @@
 
 // Chiedere all'utente pari o dispari
 var pariODispari = prompt('Pari o dispari?');
-console.log(pariODispari);
 
 // Chiedere all'utente un numero da 1 a 5 (numero)
 var numeroUtente = parseInt( prompt('Dimmi un numero da 1 a 5') );
-console.log(numeroUtente);
 
 // Generare numero random per il computer
 var randomNumberComputer = randomNumber(1, 5);
-console.log(randomNumberComputer);
 
 // Sommare i due numeri
 var sommaNumeri = somma(numeroUtente, randomNumberComputer);
-console.log(sommaNumeri);
 
 // Stabilire se la somma dei numeri è pari o dispari
 var OddEven = numeroPariODispari(sommaNumeri);
-console.log(OddEven);
 
 // Confrontare PariODispari con OddEven e stampare chi ha vinto
 var messaggio;
